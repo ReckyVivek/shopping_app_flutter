@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/cart_page.dart';
-import 'package:shop_app/product_list.dart';
+import 'package:shop_app/pages/cart_page.dart';
+import 'package:shop_app/widgets/product_list.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -31,6 +31,7 @@ class _HomePageState extends State<HomePage> {
         },
         currentIndex: currentPage,
         items: const [
+          
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
